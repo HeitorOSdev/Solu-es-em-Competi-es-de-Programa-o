@@ -1,5 +1,4 @@
 // Questão resolvida no dia 27/03/2026
-// Presentes resolução: Heitor Felipe, Silvio Bruciaferro
 
 #include<bits/stdc++.h>
 using namespace std;

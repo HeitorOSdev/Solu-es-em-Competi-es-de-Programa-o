@@ -1,0 +1,2 @@
+- Mas foram entregues pela equipe 3 questões, que foram: (...) .
+- Nenhuma validada por mim.

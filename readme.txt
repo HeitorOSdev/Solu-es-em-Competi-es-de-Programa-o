@@ -1,1 +1,5 @@
-Competições de Programação readme.
+Prosa sobre o progresso em Competições de Programação:
+
+    Primeiro faça muitas questões fáceis, depois perceba que existem soluções mais eficientes, depois você consegue encontrar as soluções que respondem corretamente e seu maior inimigo será o "Time Limit Exceed" nesse momento (que é o meu momento atual !) percebi que usar corretamente boas estruturas de dados (de preferência as mais simples)  e seus métodos economiza muito processamento e além disso, é importante descobrir maneiras de dividir o processamento de um problema em etapas (evitando loops aninhados) e fazer um tipo de "merge" dos dados já com o processamento. Dividir o problema em loops menores e usar bem as estruturas de dados diponíveis (ou criadas) faz toda a diferença para evitar um "Time Limit Exceed" !
+    É importante demais também unir uma boa interpretação de texto junto com uma boa interpretação das formulações matemáticas (uma interpretação textual precisa e que dê atenção ao que importa e ao que não importa para o problema tende a ser ainda mais importante, por se tratar de uma questão de definição do que o algoritmo vai resolver e qual deve ser a saída específica dele).
+    

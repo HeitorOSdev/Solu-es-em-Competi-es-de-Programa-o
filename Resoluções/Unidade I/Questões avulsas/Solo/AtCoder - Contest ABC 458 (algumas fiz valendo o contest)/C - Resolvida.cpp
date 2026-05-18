@@ -42,38 +42,56 @@ int main()
     ////////////////////// NOVA ABORDAGEM ///////////////////////////////
     
     
-    string S;
-    int cont = 0;
+    // string S;
+    // int cont = 0;
     
+    // cin >> S;
+    
+    // int size = S.size();
+    
+    // int indexInferior, indexSuperior;
+    // for(int i = 0; i<=size; i++){
+        
+    //     indexInferior = i;
+    //     indexSuperior = i;
+        
+    //     if(S[i] == 'C'){
+            
+    //         cont++;
+    //         indexInferior = i-1;
+    //         indexSuperior = i+1;
+            
+    //         while(indexInferior>=0 && indexSuperior<size){
+    //             cont++;
+    //             indexInferior--;
+    //             indexSuperior++;
+    //         }
+            
+            
+            
+    //     }
+    // }
+    
+    // cout << cont;
+    
+    ///////////////////////////////////////// SOLUÇÃO //////////////////////////////////////////////////////
+    
+    ios::sync_with_stdio(0); cin.tie(0);
+    
+    string S;
     cin >> S;
     
+    long long acumulador = 0;
     int size = S.size();
     
-    int indexInferior, indexSuperior;
-    for(int i = 0; i<=size; i++){
-        
-        indexInferior = i;
-        indexSuperior = i;
-        
-        if(S[i] == 'C'){
-            
-            cont++;
-            indexInferior = i-1;
-            indexSuperior = i+1;
-            
-            while(indexInferior>=0 && indexSuperior<size){
-                cont++;
-                indexInferior--;
-                indexSuperior++;
-            }
-            
-            
-            
+    for(int i = 0; i < size; i++) {
+        if(S[i] == 'C') {
+            long long expansoes_possiveis = min(i, size - 1 - i);
+            acumulador += (expansoes_possiveis + 1);
         }
     }
     
-    cout << cont;
-    
+    cout << acumulador << "\n";
     
     
     
